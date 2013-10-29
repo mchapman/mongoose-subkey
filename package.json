@@ -1,0 +1,25 @@
+{
+    "name": "mongoose-subkey"
+  , "description": "Mongoose plugin that which adds the concept of a key to sub schema arrays and validates that there is no duplication"
+  , "version": "0.1.0"
+  , "author": "Mark Chapman <support@reallycare.org>"
+  , "keywords": ["mongodb", "mongoose", "plugin", "subkey", "subschema"]
+  , "repository": {
+      "type": "git"
+    , "url": "git://github.com/mchapman/mongoose-subkey"
+    }
+  , "dependencies": {
+      "mongoose": ">= 3.0"
+    }
+  , "devDependencies": {
+      "should": ">= 0.2.1"
+    , "mocha": ">= 0.13.0"
+    }
+  , "scripts": {
+      "test": "mocha -u bdd -R spec -c ./test/*test.js"
+    }
+  , "license": "MIT"
+  , "engine": {
+      "node": ">= 0.6"
+    }
+}
